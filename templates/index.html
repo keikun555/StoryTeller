@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Story Teller</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Skeleton-2.0.4/css/normalize.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Skeleton-2.0.4/css/skeleton.css') }}">
+  <script async src="{{ url_for('static', filename='script.js') }}"></script>
+  <style media="screen">
+    .header {
+      margin-top: 6rem;
+      text-align: center;
+    }
+
+    body {
+      text-align: center;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    $colors= {
+      'primary': #2980b9,
+      'success': #27ae60,
+      'info': #3498db,
+      'warning': #f39c12,
+      'danger': #c0392b,
+    }
+
+    for $key,
+    $hex in $colors .button- {
+      $key
+    }
+
+    &,
+    &:focus,
+    &:active color white background-color $hex border-color @background-color &:hover color white background-color darken($hex, 10%) border-color @background-color .button &.button-block width 100%
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h2 class="title">Story Teller</h2>
+    </div>
+    <h4 class="title" id="text">&nbsp</h4>
+    <div class="row" id="choices">
+      <div class="twelve columns">
+        <input class="button button-block" type="button" name="button" value="">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
