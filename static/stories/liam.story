@@ -12,7 +12,7 @@ make_story
 
 
 make_story
-I guess I'll make my own story -- about Liam!
+I guess I'll make my own story -- about Liam!<audio controls autoplay hidden><source src="/static/stories/audio/sample.mp3" type="audio/mpeg"/></audio>
 Continue
 scene1
 
