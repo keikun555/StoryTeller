@@ -14,7 +14,7 @@ import os
 
 from flask import Flask, request, render_template, jsonify, abort
 
-STORY_FILEPATH = "static/stories/happy.story"
+STORY_FILEPATH = "static/stories/heyjude.story"
 app = Flask(__name__)
 app.config.update(TEMPLATES_AUTO_RELOAD=True)
 session = {}

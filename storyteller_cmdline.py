@@ -8,7 +8,7 @@ from STGraph import STGraph
 import networkx as nx
 import os
 
-STORY_FILEPATH = "static/stories/liam.story"
+STORY_FILEPATH = "static/stories/heyjude.story"
 
 def main():
     G = story_to_STGraph(STORY_FILEPATH)
