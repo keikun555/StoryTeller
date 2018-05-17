@@ -5,7 +5,7 @@ LDAP authentication (perhaps build a LDAP Python library)
 Database interface/integration
 """
 from STParser import story_to_STGraph
-from auth import check_credentials
+# from auth import check_credentials
 from STGraph import STGraph
 from sys import exit
 import uuid
